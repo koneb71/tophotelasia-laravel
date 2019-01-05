@@ -14,6 +14,8 @@
         <link href="{{ asset('/css/bootstrap.min.css') }}" rel="stylesheet">
         <!-- Material Design Bootstrap -->
         <link href="{{ asset('/css/mdb.min.css') }}" rel="stylesheet">
+        <!-- Material Design Datatable -->
+        <link href="{{ asset('/css/addons/datatables.min.css') }}" rel="stylesheet">
         <!-- Your custom styles (optional) -->
         <link href="{{ asset('/css/style.css') }}" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Chewy" rel="stylesheet">
@@ -135,6 +137,8 @@
         <script type="text/javascript" src="{{ asset('/js/bootstrap.min.js') }}"></script>
         <!-- MDB core JavaScript -->
         <script type="text/javascript" src="{{ asset('/js/mdb.min.js') }}"></script>
+        <!-- MDB Datatables -->
+        <script type="text/javascript" src="{{ asset('/js/addons/datatables.min.js') }}"></script>
 
         @yield('footer-scripts')
     </body>

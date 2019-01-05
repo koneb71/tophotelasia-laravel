@@ -3,7 +3,9 @@
 @section('title', 'Room Management | TopHotelAsia')
 
 @section('content')
-    <h2>Room Management</h2>
+    <h2>Room Management
+        <a href="#" class="btn btn-sm btn-primary float-right">Add Room</a>
+    </h2>
     <hr>
     <table id="rooms" class="table table-striped table-bordered" cellspacing="0" width="100%">
         <thead>
